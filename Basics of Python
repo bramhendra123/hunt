@@ -4,3 +4,45 @@
 >>> print("Hello, World!")
 Hello, World!
 
+
+x = 5
+y = "Hello, World!"
+
+o/p===
+5
+"Hello, World!"
+
+
+
+#This is a comment.
+print("Hello, World!")
+
+o/p===
+Hello, World!
+
+********Multi Line Comments********
+#This is a comment
+#written in
+#more than just one line
+print("Hello, World!") 
+
+o/p===
+Hello, World!
+
+**************Or We can use multiline comment *************
+"""
+This is a comment
+written in
+more than just one line
+"""
+print("Hello, World!") 
+
+
+o'p===
+Hello, World!
+
+
+
+
+
+
