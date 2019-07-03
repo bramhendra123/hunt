@@ -1,0 +1,104 @@
+Creating Variables
+
+Variables are containers for storing data values.
+Unlike other programming languages, Python has no command for declaring a variable.
+A variable is created the moment you first assign a value to it.
+
+x = 5
+y = "John"
+print(x)
+print(y)
+
+o/p===
+5
+John
+******************************
+
+@@@@String variables can be declared either by using single or double quotes:@@@
+
+x = "John"
+print(x)
+#double quotes are the same as single quotes:
+x = 'John'
+print(x)
+
+
+
+o/p===
+John
+John
+
+
+**********************************
+
+#####Assign Value to Multiple Variables
+
+x, y, z = "Orange", "Banana", "Cherry"
+
+print(x)
+print(y)
+print(z)
+
+o/p===
+Orange
+Banana
+cherry
+
+**********************************
+
+###And you can assign the same value to multiple variables in one line:
+
+x = y = z = "Orange"
+
+print(x)
+print(y)
+print(z)
+
+
+o/p===
+Orange
+Orange
+Orange
+
+************************************
+###Output Variables
+The Python print statement is often used to output variables.
+
+To combine both text and a variable, Python uses the + character:
+
+
+x = "awesome"
+print("Python is " + x)
+
+
+o/p==
+awesome
+
+
+************************************
+
+x = "Python is "
+y = "awesome"
+z =  x + y
+print(z)
+
+o/p===
+Python is awesome
+
+************************************
+x = 5
+y = "John"
+print(x + y)
+
+o/p===
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+
+
+
+
+
+
+
+
+
